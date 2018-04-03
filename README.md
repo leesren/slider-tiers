@@ -1,7 +1,5 @@
-## Welcome to GitHub Pages
+## slider 组件 
 
-slider 组件 
-![](./slider.png)
- 
-详细查看
+![](./slider.png) 
 
+[DEMO 展示](https://leesren.github.io/slider-tiers/)
