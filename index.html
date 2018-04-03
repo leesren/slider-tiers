@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider demo</title>
+    <link rel="stylesheet" href="./slider.css">
+    <style>
+        body {
+            padding: 60px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="knob"></div>
+            <ul class="rail inactive">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="rail active">
+                <li style="display: none;"></li>
+                <li style="display: none;"></li>
+                <li style="display: none;"></li>
+                <li style="display: none;"></li>
+                <li style="display: none;"></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./struct.js"></script>
+    <script src="./dom-util.js"></script>
+    <script src="./PricingCalculator.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
